@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "ZJBrowserPhoto.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    ZJBrowserPhoto * browser = [[ZJBrowserPhoto alloc] init];
+    browser.title = @"美女";
+    [browser show];
+    
 }
 
 
